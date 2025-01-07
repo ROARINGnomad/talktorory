@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60 Minute Call</title>
+</head>
+<body>
+    <p>Use the link below to schedule your 60-minute session:</p>
+    
+    <!-- Embed Calendly Link -->
+    <div id="calendly-embed"></div>
+    <script type="text/javascript">
+        Calendly.initInlineWidget({
+            url: 'https://calendly.com/rory-gallagher11/30-minute-meeting-clone',  // Replace with your specific Calendly link
+            parentElement: document.getElementById('calendly-embed'),
+            prefill: {},
+            utm: {}
+        });
+    </script>
+
+    <!-- Include Calendly's JavaScript -->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+</body>
+</html>
